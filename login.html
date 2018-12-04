@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style> ::selection { background: white; /* WebKit/Blink Browsers */ } </style>
+<script>
+  if (typeof module === 'object') {
+  var electron = require('electron');
+  // Require in any additional modules that are Node.js only
+  window.module = module;
+  module = undefined;
+}
+</script>
+
+   <!-- Materialize css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <!-- Bootstrap css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Bootstrap js -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Materialize js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+ <!-- Materialize icons css -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body background="https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-color-background-latest.jpg">
+    <script>
+            function myFunction() {
+                const remote = require('electron').remote;
+            const BrowserWindow = remote.BrowserWindow;
+            const path = require('path');
+const url = require('url');
+
+}
+            </script>
+
+    <div class="background-image"></div>
+    <div class="title">
+      <h3 class="center-align white-text">Welcome!</h3>
+    </div>
+    <div class="row">
+      <div class="col s12 l4 offset-l4">
+        <div class="card grey lighten-3">
+          <div class="card-content">
+            <h4 class="card-title center-align">Login</h4>
+            <form>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">email</i>
+                  <input type="email" id="email" class="validate" />
+                  <label for="email" style="font-size: 13px;">Email</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">vpn_key</i>
+                  <input type="password" id="password" class="validate" />
+                  <label for="email" style="font-size: 13px;">Password</label>
+                </div>
+              </div>
+              <div class="row center-align">
+              <a href="./mainWindow.html"  <button class="btn waves-effect waves-light">Submit 
+                  <i class="material-icons right">send</i> </a>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+    html {
+  font-family: "Nunito";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.background-image {
+  background:url("https://static.pexels.com/photos/30732/pexels-photo-30732.jpg");
+  background-position: center;
+  background-size: cover;
+  display: block;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+  height: 100%;
+}
+
+.title h3 {
+  margin: 0;
+  padding: 40px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  top: 40px;
+  position: relative;
+  z-index: 2;
+}
+    </style>
+
+<script>
+    (function () {
+  var height = $(document).height();
+  var background = $('.background-image');
+  background.css('min-height', height);
+})();
+
+
+</script>
+   
+
+</body>
+</html>

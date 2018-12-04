@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Instagram</title>
+  <style> ::selection { background: white; /* WebKit/Blink Browsers */ } </style>
+<script>
+  if (typeof module === 'object') {
+  var electron = require('electron');
+  // Require in any additional modules that are Node.js only
+  window.module = module;
+  module = undefined;
+}
+</script>
+
+   <!-- Materialize css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <!-- Bootstrap css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Bootstrap js -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Materialize js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+ <!-- Materialize icons css -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper" style="background-image: url(https://www.edigitalagency.com.au/wp-content/uploads/new-instagram-color-background-latest.jpg)">
+          <div class="brand-logo center">Instagram </div>
+
+        </div>
+      </nav>
+
+  <div class="alert alert-danger" role="alert">
+    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+    <span class="sr-only">Error:</span>
+    This application is in development.
+  </div>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Modal Header</h4>
+        <p>A bunch of text</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+    </div>
+
+  <div class="md-form active-cyan-2 mb-3">
+      <input class="form-control" style="width: 200px; margin: auto" type="text" placeholder="Search" aria-label="Search">
+
+  </div>
+
+  <style>
+  .active-cyan input[type=text] {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+  </style>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons" style="margin-left: 10px; font-size: 50px;">menu</i></a>
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="https://images.pexels.com/photos/7653/pexels-photo.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=301&w=175">
+      </div>
+      <a href="#user"><img class="circle" src="https://randomuser.me/api/portraits/men/47.jpg"></a>
+      <a href="#name"><span class="white-text name">Henri Hutchinson</span></a>
+      <a href="#email"><span class="white-text email">hh123@gmail.com</span></a>
+    </div></li>
+    <li><a class="subheader">Settings</a></li>
+    <li><a href="#!"><i class="material-icons">location_on</i>Location<span class="switch">
+        <label style="font-size: 15px">
+          
+          <input type="checkbox">
+          <span class="lever"></span>
+          
+        </label>
+      </span></a></li>
+    <li><a href="#!"><i class="material-icons">notifications</i>Notifications<span class="switch">
+        <label style="font-size: 15px">
+          
+          <input type="checkbox">
+          <span class="lever"></span>
+          
+        </label>
+      </span></a></li>
+            <li><div class="divider"></div></li>
+    <li><a class="subheader">Activity</a></li>
+    <li><a href="#!"><i class="material-icons">person_add</i>Following <span class="new badge" style="font-size: 15px">5</span></a></li></a></li>
+    <li><a href="#!"><i class="material-icons">person_outline</i>You</a></li>
+    <li><a href="#!"><i class="material-icons">add</i>Post</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Account</a></li>
+    <li><a href="#!"><i class="material-icons">edit</i>Edit Profile</a></li>
+    <li><a href="#!"><i class="material-icons">settings</i>Account Settings</a></li>
+    <li><a href="./login.html "><i class="material-icons">exit_to_app</i>Logout</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Support</a></li>
+    <li><a href="#!"><i class="material-icons">help_outline</i>Help Center</a></li>
+    <li><a href="#!"><i class="material-icons">bug_report</i>Report a Problem</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">About</a></li>
+    <li><a href="#!"><i class="material-icons">local_atm</i>Ads</a></li>
+    <li><a href="#!"><i class="material-icons">book</i>Blog</a></li>
+    <li><a href="#!"><i class="material-icons">gavel</i>Privacy Policy</a></li>
+    <li><a href="#!"><i class="material-icons">border_color</i>Terms of Service</a></li>
+    <li><a href="#!"><i class="material-icons">local_library</i>Open Source Libraries</a></li>
+
+    </ul>
+
+          
+  <script>
+   $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+  </script>
+  <div class="container">
+      <div class="jumbotron" style="margin: auto; width: 414px; height: 650px; background-image: url(https://cdn.discordapp.com/attachments/440304959825641503/463695873579417610/Screen_Shot_2018-07-03_at_11.18.09_pm.png)">
+       
+    </div>
+
+    <blockquote style="position: absolute; left: 720px; top: 200px; padding-left: 1.5rem; border-left: 5px solid #64b5f6;">
+   Stories
+    </blockquote>
+    <ul class="collection" style="width: 250px; position: absolute; left: 720px; top: 250px">
+        <li class="collection-item avatar">
+          <img src="https://randomuser.me/api/portraits/men/94.jpg" alt="" class="circle">
+          <span class="title">Nawal Cochran</span>
+          <p>New Story
+          </p>
+          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+        </li>
+        <li class="collection-item avatar">
+            <img src="https://randomuser.me/api/portraits/women/10.jpg" alt="" class="circle">
+          <span class="title">Jennie Vargas</span>
+          <p>New Story
+          </p>
+          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+        </li>
+        <li class="collection-item avatar">
+            <img src="https://randomuser.me/api/portraits/men/81.jpg" alt="" class="circle">
+          <span class="title">Cobie Tierney</span>
+          <p>New Story
+          </p>
+          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+        </li>
+        <li class="collection-item avatar">
+            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="" class="circle">
+            <span class="title">Vivian Obrien</span>
+          <p>New Story
+          </p>
+          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+        </li>
+      </ul>
+</body>
+</html>
